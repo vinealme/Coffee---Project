@@ -15,7 +15,7 @@ const NavBar = () => {
       <div className='flex gap-3'>
       <button className="flex items-center gap-1 bg-purple-100 px-4 py-2 rounded-md">
         <img src={icon} alt="icon" className="h-5 w-5 text-purple-500" />
-        <p className="text-purple-700">Porto Alegre, RS</p>
+        <p className="text-purple-700 text-xs font-sans">Porto Alegre, RS</p>
       </button>
 
      
