@@ -3,9 +3,10 @@ import logo from '../assets/logo.svg';
 import icon from '../assets/icon.svg';
 import cart from '../assets/cart.svg';
 
+
 const NavBar = () => {
   return (
-    <nav className="flex justify-between bg-white items-center py-8 px-28">
+    <nav className=" flex justify-between bg-white items-center py-8 px-28 min-w-full ">
 
       <div className="flex items-center space-x-2">
         <img src={logo} alt="logo" className="h-10" />
