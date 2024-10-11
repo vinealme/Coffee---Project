@@ -7,7 +7,7 @@ import coffee from '../assets/coffee.png';
 
 const Intro = () => {
     return (
-        <div className='max-w-screen-lg mx-auto grid grid-cols-1 md:grid-cols-2 gap-20 items-center px-8 py-12 space-x-20 opacity-90  '>
+        <div className='max-w-screen-lg mx-auto  grid grid-cols-1 md:grid-cols-2 gap-20 items-center px-8 py-12 space-x-36 opacity-90  '>
             {/* Coluna Esquerda: Texto e Ícones */}
             <div className='space-y-6'>
                 {/* Título */}
@@ -28,12 +28,12 @@ const Intro = () => {
                     {/* Item 2 */}
                     <div className='flex items-center space-x-2   '>
                         <img src={item4} alt="Embalagem mantém o café intacto" className='w-8 h-8' />
-                        <p className='text-gray-700 text-base whitespace-nowrap '>Embalagem mantém o café intactoa</p>
+                        <p className='text-gray-700 text-base whitespace-nowrap '>Embalagem mantém o café intacto</p>
                     </div>
                     {/* Item 3 */}
                     <div className='flex items-center space-x-2  '>
                         <img src={item2} alt="Entrega rápida e rastreada" className='w-8 h-8' />
-                        <p className='text-gray-700 text-base whitespace-nowrap'>Entrega rápida e rastreada</p>
+                        <p className='text-gray-700 text-base whitespace-nowrap'>Entrega rápida e rastreadoa</p>
                     </div>
                     {/* Item 4 */}
                     <div className='flex items-center space-x-2  '>
@@ -45,7 +45,7 @@ const Intro = () => {
 
             {/* Coluna Direita: Imagem */}
             <div className='flex justify-end '>
-                <img src={coffee} alt="Copo de café" className=' flex max-w-full h-auto' />
+                <img src={coffee} alt="Copo de café" className=' ' />
             </div>
         </div>
     );
